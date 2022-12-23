@@ -1,0 +1,53 @@
+.book-page {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+    color: #333;
+}
+
+.blockquote {
+    font-style: italic;
+}
+
+h3 {
+    color: #333;
+}
+
+.linkfirst {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.linkfirst:hover {
+    text-decoration: none;
+}
+
+.linkfirst:active {
+    text-transform: uppercase;
+}
+
+tr {
+    color: #333;
+}
+
+th {
+   text-transform: uppercase;
+}
+
+.linksecond {
+    text-decoration: underline;
+}
+
+.linksecond:visited {
+    color: #005;
+}
+
+.linksecond:hover {
+    text-decoration: none;
+}
+
+.skills {
+    list-style: square;
+    list-style-position: outside;
+}
