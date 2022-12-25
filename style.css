@@ -4,14 +4,26 @@
 
 h1 {
     color: #333;
+    border-bottom: 2px solid #8baae4;
+    font-style: italic;
 }
 
-.blockquote {
-    font-style: italic;
+.container {
+    border: 2px solid #8baae4;
+    padding: 10px;
 }
 
 h3 {
     color: #333;
+}
+
+.border2 {
+    border-bottom: 2px solid #8baae4;
+}
+
+.backgroundsecond {
+    color: #333;
+    background-color: #adbfe0;
 }
 
 .linkfirst {
@@ -25,6 +37,15 @@ h3 {
 
 .linkfirst:active {
     text-transform: uppercase;
+}
+
+.backgroundfirst {
+    background-color: #7491c9;
+}
+
+.description {
+    text-transform: uppercase;
+    background-color: #7491c9;
 }
 
 tr {
@@ -50,4 +71,9 @@ th {
 .skills {
     list-style: square;
     list-style-position: outside;
+    border-bottom: 2px solid #8baae4;
+}
+
+.border3 {
+    border-bottom: 2px solid #8baae4;
 }
