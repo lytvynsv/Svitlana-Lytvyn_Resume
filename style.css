@@ -1,9 +1,9 @@
 .book-page {
+    color: #333;
     font-family:Arial, Helvetica, sans-serif
 }
 
 h1 {
-    color: #333;
     border-bottom: 2px solid #8baae4;
     font-style: italic;
 }
@@ -13,16 +13,11 @@ h1 {
     padding: 10px;
 }
 
-h3 {
-    color: #333;
-}
-
 .border2 {
     border-bottom: 2px solid #8baae4;
 }
 
 .backgroundsecond {
-    color: #333;
     background-color: #adbfe0;
 }
 
@@ -46,10 +41,6 @@ h3 {
 .description {
     text-transform: uppercase;
     background-color: #7491c9;
-}
-
-tr {
-    color: #333;
 }
 
 th {
