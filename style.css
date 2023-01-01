@@ -1,18 +1,14 @@
 .book-page {
+    color: #333;
     font-family:Arial, Helvetica, sans-serif
 }
 
-h1 {
-    color: #333;
-}
 
 .blockquote {
     font-style: italic;
 }
 
-h3 {
-    color: #333;
-}
+
 
 .linkfirst {
     color: #00f;
@@ -25,10 +21,6 @@ h3 {
 
 .linkfirst:active {
     text-transform: uppercase;
-}
-
-tr {
-    color: #333;
 }
 
 th {
