@@ -1,45 +1,34 @@
-.book-page {
+.wrapper {
     color: #333;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-
-.blockquote {
-    font-style: italic;
-}
-
-
-
-.linkfirst {
+.wrapper a {
     color: #00f;
     text-decoration: underline;
 }
 
-.linkfirst:hover {
+.wrapper a:hover {
     text-decoration: none;
 }
 
-.linkfirst:active {
-    text-transform: uppercase;
-}
-
-th {
-   text-transform: uppercase;
-}
-
-.linksecond {
-    text-decoration: underline;
-}
-
-.linksecond:visited {
+.wrapper a:visited {
     color: #005;
 }
 
-.linksecond:hover {
-    text-decoration: none;
+h1 {
+    font-style: italic;
 }
 
-.skills {
+.position {
+    font-weight: 800;
+}
+
+.capital-letters {
+    text-transform: uppercase;
+}
+
+ul {
     list-style: square;
     list-style-position: outside;
 }
