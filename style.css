@@ -59,7 +59,7 @@ th {
     text-decoration: none;
 }
 
-.skills {
+ul {
     list-style: square;
     list-style-position: outside;
     border-bottom: 2px solid #8baae4;
