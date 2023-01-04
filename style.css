@@ -3,8 +3,8 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
-.p1 {
-    display:block;
+.block1 {
+    background-color: rgba(144, 227, 227, 0.621);
 }
 
 h1 {
@@ -12,14 +12,15 @@ h1 {
     font-style: italic;
 }
 
-.container {
-    width: 100px;
+.img {
+    width: 76px;
     border: 2px solid #8baae4;
     padding: 10px;
     float: right;
 }
 
-.border {
+.position {
+    font-weight: 800;
     border-bottom: 2px solid #8baae4;
 }
 
@@ -34,6 +35,11 @@ h1 {
 
 .linkfirst:active {
     text-transform: uppercase;
+}
+
+.block2 {
+    background-color: rgba(38, 233, 168, 0.8);
+    clear: both;
 }
 
 .backgroundfirst{
@@ -68,5 +74,9 @@ th {
 ul {
     list-style: square;
     list-style-position: outside;
-    border-bottom: 2px solid #8baae4;
+    border-bottom: 2px solid #8baae4
+}
+
+ol {
+    border-bottom: 2px solid #8baae4
 }
