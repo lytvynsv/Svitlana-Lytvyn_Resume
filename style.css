@@ -10,10 +10,12 @@
 h1 {
     border-bottom: 2px solid #8baae4;
     font-style: italic;
+    display: inline-block;
 }
 
 .img {
-    width: 76px;
+    width: auto;
+    height: 100px;
     border: 2px solid #8baae4;
     padding: 10px;
     float: right;
@@ -22,6 +24,7 @@ h1 {
 .position {
     font-weight: 800;
     border-bottom: 2px solid #8baae4;
+    display: inline;
 }
 
 .linkfirst {
@@ -80,3 +83,8 @@ ul {
 ol {
     border-bottom: 2px solid #8baae4
 }
+
+
+border-bottom: 2px solid #8baae4;
+font-style: italic;
+display: inline-block;
