@@ -3,24 +3,11 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
-.wrapper a {
-    color: #00f;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #005;
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
 h1 {
     border-bottom: 2px solid #8baae4;
     font-style: italic;
     display: inline;
+
 }
 
 .img {
@@ -38,15 +25,15 @@ h1 {
 }
 
 .linkfirst {
- 
+    color: #00f;
 }
 
 .linkfirst:hover {
-    text-dration: none;
+    text-decoration: none;
 }
 
 .linkfirst:active {
-    text-tranm: uppercase;
+    text-transform: uppercase;
 }
 
 .block2 {
@@ -74,7 +61,9 @@ th {
    text-transform: uppercase;
 }
 
+
 .linksecond {
+    color: #00f;
     text-decoration: underline;
 }
 
