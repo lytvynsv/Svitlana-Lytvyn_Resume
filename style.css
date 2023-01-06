@@ -4,13 +4,13 @@
 }
 
 .block1 {
-    background-color: rgba(144, 227, 227, 0.621);
+    background-color: antiquewhite;
 }
 
 h1 {
     border-bottom: 2px solid #8baae4;
     font-style: italic;
-    display: inline-block;
+    display: inline;
 }
 
 .img {
@@ -24,7 +24,7 @@ h1 {
 .position {
     font-weight: 800;
     border-bottom: 2px solid #8baae4;
-    display: inline;
+    display: inline-block;
 }
 
 .linkfirst {
@@ -41,7 +41,7 @@ h1 {
 }
 
 .block2 {
-    background-color: rgba(38, 233, 168, 0.8);
+    background-color: #adbfe0;
     clear: both;
 }
 
@@ -83,8 +83,3 @@ ul {
 ol {
     border-bottom: 2px solid #8baae4
 }
-
-
-border-bottom: 2px solid #8baae4;
-font-style: italic;
-display: inline-block;
