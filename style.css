@@ -3,8 +3,18 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
-.block1 {
-    background-color: antiquewhite;
+.wrapper a {
+    color: #00f;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #005;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 h1 {
@@ -28,21 +38,23 @@ h1 {
 }
 
 .linkfirst {
-    color: #00f;
-    text-decoration: underline;
+ 
 }
 
 .linkfirst:hover {
-    text-decoration: none;
+    text-dration: none;
 }
 
 .linkfirst:active {
-    text-transform: uppercase;
+    text-tranm: uppercase;
 }
 
 .block2 {
-    background-color: #adbfe0;
     clear: both;
+}
+
+.table {
+    width: 100%;
 }
 
 .backgroundfirst{
