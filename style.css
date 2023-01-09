@@ -3,11 +3,14 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
+.block1 {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
     border-bottom: 2px solid #8baae4;
     font-style: italic;
-    display: inline;
-
 }
 
 .img {
@@ -15,13 +18,11 @@ h1 {
     height: 100px;
     border: 2px solid #8baae4;
     padding: 10px;
-    float: right;
 }
 
 .position {
     font-weight: 800;
     border-bottom: 2px solid #8baae4;
-    display: inline-block;
 }
 
 .linkfirst {
@@ -60,7 +61,6 @@ h1 {
 th {
    text-transform: uppercase;
 }
-
 
 .linksecond {
     color: #00f;
