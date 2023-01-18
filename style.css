@@ -1,5 +1,6 @@
 body {
     background: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .rectangle_1 {
@@ -17,25 +18,82 @@ body {
     border-right: 1px solid #1E1E1E;
 }
 
-.name {
-    width: 118px;
-    height: 48px;
-    font-family: inter;
+.summary {
     font-style: normal;
+    width: 120px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color:#1E1E1E
+}
+
+.name-block {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.name {
+    font-style: normal;
+    width: 120px;
+    height: 50px;
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
     color: #ffff;
     -webkit-text-stroke: 1px #000000;
+    margin-bottom: -30px;
 }
 
 .surname {
-    position: absolute;
     width: 260px;
-    height: 48px;
-    font-family:
-    font-style: normal;
+    height: 50px;
     font-weight: 600px;
     font-size: 40px;
     color: #1c2e8c
+}
+
+.image img {
+    padding-bottom: 10px;
+}
+
+.information {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.info1 {
+    width: 171px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 35px;
+    color: #263036;
+}
+
+.border1 {
+    border-bottom: 6px solid #1E1E1E;
+    width: 290px;
+}
+
+.info2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #263036;
+}
+
+.info3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #263036;
+}
+
+.info4 {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1c2e8c;
 }
