@@ -1,3 +1,14 @@
+input,
+select,
+textarea {
+    appearance: none;
+}
+
 .blocksize {
     width: 1024px;
+}
+
+select {
+    min-width: 7rem;
+    background: url('./down-arrow-svgrepo-com.svg') no-repeat .75rem;
 }
