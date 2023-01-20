@@ -28,10 +28,9 @@
 </table>
 
 <body>
-  
     <form action="/forms.html" method="get">
    
-        <fieldset class="blocksize" >
+        <fieldset class="blocksize">
             <legend>Contact form</legend>
             <label>
                 E-mail:
@@ -41,12 +40,11 @@
                 required="1"
                 name="e-mail"
                 placeholder="Enter your e-mail"
-                />
-                
+                for="e-mail-input" />
             </label>
 
             <br />
-            <label>Description:</label>
+            <label>Description:
             <br />
             <textarea
                 id="hire-comment"
@@ -55,14 +53,16 @@
                 cols="41"
                 placeholder="Write something..."
             ></textarea>
+            </label>
 
             <br />
-            <label>Work type:</label> 
+            <label>Work type:
             <select name="type">
                 <option value="type_1">One-time project</option>
                 <option value="type_2">Remote work</option>
                 <option value="type_3">Full-time</option>
             </select>
+            </label>
             <br />
             <input type="submit" value="Hire me" />
             <br />
@@ -70,4 +70,5 @@
         </fieldset>
     </form>
 </body>
+
 </html>
