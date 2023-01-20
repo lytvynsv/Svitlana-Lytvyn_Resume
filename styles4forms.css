@@ -1,28 +1,50 @@
 input,
 select,
-textarea {
+textarea,
+table,
+thead,
+tr,
+th,
+td,
+fieldset,
+label {
     appearance: none;
-    border-radius: 4px;
-    color: #333;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
-.color {
-    color: #333;
+input,
+select,
+textarea,
+fieldset {
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 table {
-    border-radius: 15px;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+    background: #efefef;
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 8px;
 }
 
 .blocksize {
     width: 1024px;
     border-radius: 15px;
     margin-top: 10px;
-    color: #333;
-}
-
-select {
-    min-width: 6.5rem;
+    padding: 15px;
 }
 
 .requirements {
@@ -30,21 +52,14 @@ select {
     margin-left: 52px;
 }
 
-input::placeholder {
-    color: #3B4256;
-}
-
-textarea::placeholder {
-    color: #3B4256;
-}
-
 input[type="submit"]{
     cursor: pointer;
     background-color: #0048d9;
     color: #ffff;
     padding: 4px 10px;
-    margin-top: 6px;
+    margin-top: 4px;
     border-radius: 5px;
+    border:none;
 }
 
 input[type="submit"]:hover {
@@ -53,4 +68,10 @@ input[type="submit"]:hover {
 
 input:invalid {
     border-color: #ED0131;
+}
+
+select {
+    min-width: 6.5rem;
+    padding: 1.5px;
+    border-radius: 5px;
 }
