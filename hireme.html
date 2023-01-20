@@ -7,15 +7,15 @@
 </head>
 
 <body>
-<h1>Hire me</h1>
+<h1 class="color">Hire me</h1>
 
-<h3>Contact information</h3>
+<h3 class="color">Contact information</h3>
 
-<table border="1" cellspacing="0" cellpadding="5px">
+<table class="color" border="1" cellspacing="0" cellpadding="5px">
     <thead>
         <tr>
-            <th><strong>Phone</strong></th>
-            <td>+48547455893</td>
+            <th class="color"><strong>Phone</strong></th>
+            <td class="color">+48547455893</td>
         </tr>
     </thead>
     
@@ -31,25 +31,29 @@
   
     <form action="/forms.html" method="get">
    
-        <fieldset class="blocksize">
-            <legend>Contact form</legend>
+        <fieldset class="blocksize" >
+            <legend class="color">Contact form</legend>
             <label>
                 E-mail:
                 <input
                 type="text"
                 style="width: 264px;"
                 required="1"
-                name="e-mail" />
+                name="e-mail"
+                placeholder="Enter your e-mail" 
+                />
+                
             </label>
 
             <br />
             <label>Description:</label>
             <br />
             <textarea
-              id="hire-comment"
+                id="hire-comment"
                 name="hire-comment"
                 rows="10"
                 cols="41"
+                placeholder="Write something..."
             ></textarea>
 
             <br />

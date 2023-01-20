@@ -2,13 +2,55 @@ input,
 select,
 textarea {
     appearance: none;
+    border-radius: 4px;
+    color: #333;
+}
+
+.color {
+    color: #333;
+}
+
+table {
+    border-radius: 15px;
 }
 
 .blocksize {
     width: 1024px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: #333;
 }
 
 select {
-    min-width: 7rem;
-    background: url('./down-arrow-svgrepo-com.svg') no-repeat .75rem;
+    min-width: 6.5rem;
+}
+
+.requirements {
+    color: #ED0131;
+    margin-left: 52px;
+}
+
+input::placeholder {
+    color: #3B4256;
+}
+
+textarea::placeholder {
+    color: #3B4256;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: #0048d9;
+    color: #ffff;
+    padding: 4px 10px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #002266;
+}
+
+input:invalid {
+    border-color: #ED0131;
 }
