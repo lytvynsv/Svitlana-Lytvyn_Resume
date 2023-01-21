@@ -1,3 +1,9 @@
+.mainblock,
+table {
+    align-content: center;
+    min-width: 1024px;
+}
+
 input,
 select,
 textarea,
@@ -41,8 +47,6 @@ td {
 }
 
 .blocksize {
-    position: fixed;
-    width: 1024px;
     border-radius: 15px;
     margin-top: 10px;
     padding: 15px;
