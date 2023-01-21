@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html>
 
-<div class="mainblock">
 <head>
     <meta charset="UTF-8">
     <title>Job Offer</title>
     <link rel="stylesheet" href="./styles4forms.css" />
 </head>
 
-<body>
-<h1>Hire me</h1>
+<div class="mainblock">
 
-<h3>Contact information</h3>
-<table border="1" cellspacing="0" cellpadding="5px">
-    <thead>
-        <tr>
-            <th><strong>Phone</strong></th>
-            <td>+48547455893</td>
-        </tr>
-    </thead>
-    
     <body>
-        <tr>
-            <th><strong>Address</Address></strong></th>
-            <td>Somewhere in Poland</td>
-        </tr>
-    </body>
-</table>
+        <h1>Hire me</h1>
 
-<body>
-    <form action="/forms.html" method="get">
-   
-        <fieldset class="blocksize">
-            <legend>Contact form</legend>
-            <label>
-                E-mail:
-                <input
-                type="text"
-                style="width: 264px;"
-                required="1"
-                name="e-mail"
-                placeholder="Enter your e-mail"
-                for="e-mail-input" />
-            </label>
+        <h3>Contact information</h3>
 
-            <br />
-            <label>Description:
-            <br />
-            <textarea
-                id="hire-comment"
-                name="hire-comment"
-                rows="10"
-                cols="41"
-                placeholder="Write something..."
-            ></textarea>
-            </label>
-
-            <br />
-            <label>Work type:
-            <select name="type">
-                <option value="type_1">One-time project</option>
-                <option value="type_2">Remote work</option>
-                <option value="type_3">Full-time</option>
-            </select>
-            </label>
-            <br />
-            <input type="submit" value="Hire me" />
-            <br />
+        <table border="1" cellspacing="0" cellpadding="5px">
+            <thead>
+                <tr>
+                    <th><strong>Phone</strong></th>
+                    <td>+48547455893</td>
+                </tr>
+            </thead>
             
-        </fieldset>
-    </form>
-</body>
+            <body>
+                <tr>
+                    <th><strong>Address</Address></strong></th>
+                    <td>Somewhere in Poland</td>
+                </tr>
+            </body>
+        </table>
+
+    <body>
+        <form action="/forms.html" method="get">
+            <fieldset class="blocksize">
+                <legend>Contact form</legend>
+                <label>
+                    E-mail:
+                    <input
+                    type="text"
+                    style="width: 264px;"
+                    required="1"
+                    name="e-mail"
+                    placeholder="Enter your e-mail"
+                    for="e-mail-input" />
+                </label>
+
+                <br />
+                <label>Description:
+                <br />
+                <textarea
+                    id="hire-comment"
+                    name="hire-comment"
+                    rows="10"
+                    cols="41"
+                    placeholder="Write something..."
+                ></textarea>
+                </label>
+
+                <br />
+                <label>Work type:
+                <select name="type">
+                    <option value="type_1">One-time project</option>
+                    <option value="type_2">Remote work</option>
+                    <option value="type_3">Full-time</option>
+                </select>
+                </label>
+                <br />
+                <input type="submit" value="Hire me" />
+                <br />
+            </fieldset>
+
+        </form>
+    </body>
+
 </div>
 </html>

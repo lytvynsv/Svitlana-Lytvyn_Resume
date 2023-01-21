@@ -1,7 +1,6 @@
-.mainblock,
-table {
-    align-content: center;
-    min-width: 1024px;
+.mainblock {
+    max-width: 1024px;
+    margin: auto;
 }
 
 input,
@@ -79,9 +78,4 @@ select {
     min-width: 6.5rem;
     padding: 3px;
     border-radius: 5px;
-}
-
-div {
-    position: absolute;
-    min-width: 1029px;
 }
