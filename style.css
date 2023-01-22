@@ -3,32 +3,18 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.rectangle_1 {
-    position: absolute;
-    width: 1200px;
-    height: 1667px;
-    background: #ffff;
+.grid-container {
+    display: grid;
+    grid-template-columns: 385px 1200px;
+    grid-template-rows: 1667px;
 }
 
-.rectangle_2 {
-    position: absolute;
-    width: 385px;
-    height: 1667px;
-    background: #86A3B4;
+.block1 {
     border-right: 1px solid #1E1E1E;
+    background-color: #86A3B4;
 }
 
-.summary {
-    font-style: normal;
-    width: 120px;
-    height: 50px;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 48px;
-    color:#1E1E1E
-}
-
-.name-block {
+.pad4block1 {
     padding-top: 20px;
     padding-left: 40px;
 }
@@ -39,13 +25,12 @@ body {
     height: 50px;
     font-weight: 600;
     font-size: 40px;
-    line-height: 48px;
     color: #ffff;
-    -webkit-text-stroke: 1px #000000;
     margin-bottom: -30px;
 }
 
 .surname {
+    font-style: normal;
     width: 260px;
     height: 50px;
     font-weight: 600px;
@@ -57,18 +42,13 @@ body {
     padding-bottom: 10px;
 }
 
-.information {
-    padding-top: 20px;
-    padding-left: 40px;
-}
-
-.info1 {
-    width: 171px;
-    height: 40px;
+.text {
     font-style: normal;
     font-weight: 600px;
     font-size: 35px;
+    line-height: 60px;
     color: #263036;
+    margin-top: 5px;
 }
 
 .border1 {
@@ -76,24 +56,114 @@ body {
     width: 290px;
 }
 
-.info2 {
+.address_phone_email_linkedin {
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
+    line-height: 5px;
     color: #263036;
+    margin-top: 50px;
 }
 
-.info3 {
+.city_number {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    color: #263036;
 }
 
-.info4 {
+.link {
     text-decoration: none;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     color: #1c2e8c;
+}
+
+.languages {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E1E1E;
+}
+
+.block2 {
+    background-color: #ffff;
+}
+
+.pad4block2 {
+    padding-top: 5px;
+    padding-left: 60px;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.border2 {
+    border-bottom: 5px solid #000000;
+    width: 660px;
+}
+
+.summary {
+    font-style: normal;
+    width: 705px;
+    height: 75px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.skillscontainer {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 110px;
+}
+
+.skills1 {
+    font-style: normal;
+    width: 295px;
+    height: 85px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.skills2 {
+    font-style: normal;
+    width: 295px;
+    height: 85px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.we1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    line-height: 0;
+}
+
+.we2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    line-height: 0;
+}
+
+.education {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #263036;
+    line-height: 0;
 }
