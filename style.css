@@ -19,6 +19,11 @@ body {
     padding-left: 40px;
 }
 
+.hireme {
+    color: #263036;
+    margin-bottom: 40px;
+}
+
 .name {
     font-style: normal;
     width: 120px;
