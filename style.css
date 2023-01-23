@@ -20,8 +20,9 @@ body {
 }
 
 .hireme {
-    color: #263036;
-    margin-bottom: 40px;
+    color: #c6e2f3;
+    font-style: normal;
+    font-size: 20px;
 }
 
 .name {
@@ -44,6 +45,7 @@ body {
 }
 
 .image img {
+    margin-top: 50px;
     padding-bottom: 10px;
 }
 
