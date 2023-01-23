@@ -12,6 +12,10 @@ body {
 .block1 {
     border-right: 1px solid #1E1E1E;
     background-color: #86A3B4;
+    position: fixed;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
 }
 
 .pad4block1 {
