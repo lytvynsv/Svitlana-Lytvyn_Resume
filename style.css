@@ -122,12 +122,14 @@ body {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+    margin-bottom: 40px;
 }
 
 .skillscontainer {
     display: grid;
     grid-template-columns: 400px 400px;
     grid-template-rows: 110px;
+    padding-bottom:  40px;
 }
 
 .skills1 {
@@ -164,6 +166,7 @@ body {
     line-height: 20px;
     color: #000000;
     line-height: 0;
+    padding-bottom: 40px;
 }
 
 .education {
