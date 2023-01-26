@@ -1,6 +1,6 @@
 body {
-    background: #1E1E1E;
-    font-family: 'Montserrat', sans-serif;
+    background: var(--color-background-main);
+    font-family: var(--font-family-base);
 }
 
 .grid-container {
@@ -11,7 +11,7 @@ body {
 
 .block1 {
     border-right: 1px solid #1E1E1E;
-    background-color: #86A3B4;
+    background-color: var(--color-background-block1);
 }
 
 .pad4block1 {
@@ -20,7 +20,7 @@ body {
 }
 
 .hireme {
-    color: #c6e2f3;
+    color: var(--color-hireme);
     font-style: normal;
     font-size: 20px;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .block2 {
-    background-color: #ffff;
+    background-color: var(--color-background-block2);
 }
 
 .pad4block2 {
@@ -176,4 +176,18 @@ body {
     line-height: 20px;
     color: #263036;
     line-height: 0;
+}
+
+/*variables*/
+:root{
+    /*font*/
+    --font-family-base: 'Montserrat', sans-serif;
+
+    /*colors*/
+    --color-background-main: #1E1E1E;
+    --color-background-block1: #86A3B4;
+    --color-background-block2: #ffff;
+    --color-hireme: #c6e2f3;
+
+    /*font*/
 }
