@@ -79,3 +79,7 @@ select {
     padding: 3px;
     border-radius: 5px;
 }
+
+.required {
+    color: #ED0131;
+}
