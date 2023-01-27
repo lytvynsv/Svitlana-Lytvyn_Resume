@@ -1,0 +1,19 @@
+/*variables*/
+.my-theme{
+    /*font*/
+    --font-family-base: 'Montserrat', sans-serif;
+
+    /*colors*/
+    --color-main: #1b1b1e;
+    --color-background-block1: #8aa29e;
+    --color-background-block2: #F1EDEE;
+    --color-hireme: #a9bcd0;
+    --color-blue: #3d5467;
+    --color-text1: #D8DBE2;
+    --color-text2: #1b1b1e;
+
+    /*space*/
+    --space-text: 20px;
+    --space-text2: 0px;
+    --border-block1: 1px;
+}

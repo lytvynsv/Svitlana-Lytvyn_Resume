@@ -10,7 +10,7 @@ body {
 }
 
 .block1 {
-    border-right: 1px solid #1E1E1E;
+    border-right: var(--border-block1) solid var(--color-main);
     background-color: var(--color-background-block1);
 }
 
@@ -31,7 +31,7 @@ body {
     height: 50px;
     font-weight: 600;
     font-size: 40px;
-    color: #ffff;
+    color: var(--color-background-block2);
     margin-bottom: -30px;
 }
 
@@ -54,12 +54,12 @@ body {
     font-weight: 600px;
     font-size: 35px;
     line-height: 60px;
-    color: #263036;
+    color: var(--color-text1);
     margin-top: 5px;
 }
 
 .border1 {
-    border-bottom: 6px solid #1E1E1E;
+    border-bottom: 6px solid var(--color-main);
     width: 290px;
 }
 
@@ -68,7 +68,7 @@ body {
     font-weight: 600;
     font-size: 25px;
     line-height: 5px;
-    color: #263036;
+    color: var(--color-text1);
     margin-top: 50px;
 }
 
@@ -76,6 +76,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
+    color: var(--color-text1);
 }
 
 .link {
@@ -90,7 +91,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 25px;
+    line-height: var(--space-text);
     color: var(--color-main);
 }
 
@@ -108,10 +109,11 @@ body {
     font-weight: 600;
     font-size: 36px;
     line-height: 80px;
+    color: var(--color-main);
 }
 
 .border2 {
-    border-bottom: 5px solid #000000;
+    border-bottom: 5px solid var(--color-text2);
     width: 660px;
 }
 
@@ -121,8 +123,9 @@ body {
     height: 75px;
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;
+    line-height: var(--space-text);
     margin-bottom: 40px;
+    color: var(--color-text1);
 }
 
 .skillscontainer {
@@ -132,40 +135,32 @@ body {
     padding-bottom:  40px;
 }
 
-.skills1 {
+.skills {
     font-style: normal;
     width: 295px;
     height: 85px;
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;
-}
-
-.skills2 {
-    font-style: normal;
-    width: 295px;
-    height: 85px;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
+    line-height: var(--space-text);
+    color: var(--color-text1);
 }
 
 .we1 {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 20px;
-    color: #000000;
-    line-height: 0;
+    line-height: var(--space-text);
+    color: var(--color-text2);
+    line-height: var(--space-text2);
 }
 
 .we2 {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 20px;
-    color: #000000;
-    line-height: 0;
+    line-height: var(--space-text);
+    color: var(--color-text2);
+    line-height: var(--space-text2);
     padding-bottom: 40px;
 }
 
@@ -173,20 +168,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 20px;
-    color: #263036;
-    line-height: 0;
-}
-
-/*variables*/
-:root{
-    /*font*/
-    --font-family-base: 'Montserrat', sans-serif;
-
-    /*colors*/
-    --color-main: #1E1E1E;
-    --color-background-block1: #86A3B4;
-    --color-background-block2: #ffff;
-    --color-hireme: #c6e2f3;
-    --color-blue: #1c2e8c;
+    line-height: var(--space-text);
+    color: var(--color-text1);
+    line-height: var(--space-text2);
 }
