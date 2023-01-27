@@ -1,5 +1,5 @@
 body {
-    background: var(--color-background-main);
+    background: var(--color-main);
     font-family: var(--font-family-base);
 }
 
@@ -41,7 +41,7 @@ body {
     height: 50px;
     font-weight: 600px;
     font-size: 40px;
-    color: #1c2e8c
+    color: var(--color-blue);
 }
 
 .image img {
@@ -83,7 +83,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    color: #1c2e8c;
+    color: var(--color-blue);
 }
 
 .languages {
@@ -91,7 +91,7 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 25px;
-    color: #1E1E1E;
+    color: var(--color-main);
 }
 
 .block2 {
@@ -184,10 +184,9 @@ body {
     --font-family-base: 'Montserrat', sans-serif;
 
     /*colors*/
-    --color-background-main: #1E1E1E;
+    --color-main: #1E1E1E;
     --color-background-block1: #86A3B4;
     --color-background-block2: #ffff;
     --color-hireme: #c6e2f3;
-
-    /*font*/
+    --color-blue: #1c2e8c;
 }
