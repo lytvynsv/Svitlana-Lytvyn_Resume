@@ -61,6 +61,10 @@ td {
     margin-left: 52px;
 }
 
+.required {
+    color: #ED0131;
+}
+
 input:invalid {
     border-color: #ED0131;
 }
