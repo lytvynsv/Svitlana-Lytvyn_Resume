@@ -76,6 +76,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
+    color: #263036;
 }
 
 .link {
@@ -108,6 +109,7 @@ body {
     font-weight: 600;
     font-size: 36px;
     line-height: 80px;
+    color: #1E1E1E;
 }
 
 .border2 {
@@ -123,6 +125,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 40px;
+    color: #263036;
 }
 
 .skillscontainer {
@@ -132,22 +135,14 @@ body {
     padding-bottom:  40px;
 }
 
-.skills1 {
+.skills {
     font-style: normal;
     width: 295px;
     height: 85px;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-}
-
-.skills2 {
-    font-style: normal;
-    width: 295px;
-    height: 85px;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
+    color: #263036;
 }
 
 .we1 {
