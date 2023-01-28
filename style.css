@@ -5,8 +5,22 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 385px 1200px;
-    grid-template-rows: 1667px;
+
+    grid-template-columns: .5fr 2fr;
+    grid-template-areas:
+        "block1"
+        "block2";
+}
+
+@media screen and (max-width: 450px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr 4fr;
+        grid-template-areas: 
+        "block1"
+        "block2"
+        ;
+    }
 }
 
 .block1 {
