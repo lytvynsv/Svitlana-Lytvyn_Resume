@@ -4,13 +4,13 @@
     --font-family-base: 'Montserrat', sans-serif;
 
     /*colors*/
-    --color-main: #1b1b1e;
-    --color-background-block1: #8aa29e;
-    --color-background-block2: #F1EDEE;
-    --color-hireme: #a9bcd0;
-    --color-blue: #3d5467;
-    --color-text1: #D8DBE2;
-    --color-text2: #1b1b1e;
+    --color-main: #000;
+    --color-background-block1: #63686e;
+    --color-background-block2: #FDFFFC;
+    --color-hireme: #fcede1;
+    --color-links: #ffc107;
+    --color-text1: #1E1E1E;
+    --color-text2: #343a40;
 
     /*space*/
     --space-text: 20px;

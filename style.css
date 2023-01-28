@@ -41,7 +41,7 @@ body {
     height: 50px;
     font-weight: 600px;
     font-size: 40px;
-    color: var(--color-blue);
+    color: var(--color-links);
 }
 
 .image img {
@@ -84,7 +84,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    color: var(--color-blue);
+    color: var(--color-links);
 }
 
 .languages {
