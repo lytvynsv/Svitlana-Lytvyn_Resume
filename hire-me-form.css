@@ -1,6 +1,19 @@
 .mainblock {
     max-width: 1024px;
     margin: auto;
+    animation: mainblock 3s ease-out;
+}
+
+@keyframes mainblock {
+    from {
+        transform: scale(200%);
+        opacity: 0%
+    }
+
+    to {
+        transform: scale(100%);
+        opacity: 100%;
+    }
 }
 
 input,

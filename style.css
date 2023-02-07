@@ -16,6 +16,13 @@ body {
     }
 }
 
+.block1 {
+    border-right: var(--border-block1) solid var(--color-main);
+    background-color: var(--color-background-block1);
+    box-shadow: inset 0px 0px 8px 0.1px #484848;
+    animation: block1 3s ease-out;
+}
+
 @keyframes block1 {
     from {
         transform: translateY(100%);
@@ -26,13 +33,6 @@ body {
         transform: translateY(0%);
         opacity: 100%;
     }
-}
-
-.block1 {
-    border-right: var(--border-block1) solid var(--color-main);
-    background-color: var(--color-background-block1);
-    box-shadow: inset 0px 0px 8px 0.1px #484848;
-    animation: block1 3s ease-out;
 }
 
 .pad4block1 {
@@ -67,8 +67,14 @@ body {
 
 .image img {
     margin-top: 50px;
-    box-shadow: 0px 0px 10px 0.1px #484848;
-    transform: scale(1);
+    transition: 2s;
+    position: relative;
+    z-index: 2;
+}
+
+.image img:hover {
+    transform: scale(1.5);
+    box-shadow: 2px 0px 5px rgb(51, 51, 51);
 }
 
 .text {
@@ -116,21 +122,20 @@ body {
     line-height: var(--space-text);
     color: var(--color-main);
 }
-
-@keyframes block2 {
-from {
-      transform: translateY(100%);
-}
-
-to {
-      transform: translateY(0%);
-}
-}
-
+    
 .block2 {
     background-color: var(--color-background-block2);
-    z-index: 1;
     animation: block2 3s ease-out 0.5s;
+}
+
+@keyframes block2 {
+    from {
+          transform: translateY(100%);
+    }
+    
+    to {
+          transform: translateY(0%);
+    }
 }
 
 .pad4block2 {
@@ -190,7 +195,8 @@ to {
 }
 
 .we1:hover{
-    opacity: 1;
+    opacity: 3;
+    transition-duration: 3s;
 }
 
 .we2 {
@@ -205,7 +211,8 @@ to {
 }
 
 .we2:hover{
-    opacity: 1;
+    opacity: 3;
+    transition-duration: 3s;
 }
 
 .education {
