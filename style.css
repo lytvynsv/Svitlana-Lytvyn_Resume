@@ -17,22 +17,22 @@ body {
 }
 
 .block1 {
-    border-right: var(--border-block1) solid var(--color-main);
-    background-color: var(--color-background-block1);
-    box-shadow: inset 0px 0px 8px 0.1px #484848;
-    animation: block1 3s ease-out;
+  border-right: var(--border-block1) solid var(--color-main);
+  background-color: var(--color-background-block1);
+  box-shadow: inset 0px 0px 8px 0.1px #484848;
+  animation: block1 3s ease-out;
 }
 
 @keyframes block1 {
-    from {
-        transform: translateY(100%);
-        opacity: 0%;
+  from {
+      transform: translateY(100%);
+      opacity: 0%;
     }
 
-    to {
-        transform: translateY(0%);
-        opacity: 100%;
-    }
+  to {
+      transform: translateY(0%);
+      opacity: 100%;
+  }
 }
 
 .pad4block1 {
