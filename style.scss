@@ -1,17 +1,6 @@
 @import './my-theme.scss';
 @import './main-theme.scss';
-
-/*variables*/
-:root{
-    /*font*/
-    --font-family-base: 'Montserrat', sans-serif;
-
-    /*colors*/
-    --color-background-main: #1E1E1E;
-    --color-background-block1: #86A3B4;
-    --color-background-block2: #ffff;
-    --color-hireme: #c6e2f3;
-}
+@import './variables.css';
 
 body {
     background: var(--color-main);
@@ -31,16 +20,17 @@ body {
     }
 }
 
-@mixin block1Animation ($block1Animation) {
-    animation: block1Animation 3s ease-out;
+@mixin block1Animation ($animation) {
+    animation: $animation;
 }
 
 .block1 {
     border-right: var(--border-block1) solid var(--color-main);
     background-color: var(--color-background-block1);
     box-shadow: inset 0px 0px 8px 0.1px #484848;
-    @include block1Animation ($block1Animation);
+    @include block1Animation(3s ease-out);
 }
+
 
 @keyframes block1 {
     from {
@@ -142,13 +132,13 @@ body {
     color: var(--color-main);
 }
 
-@mixin block2Animation ($block2Animation) {
-    animation: block2Animation 3s ease-out 0.5s;
+@mixin block2Animation ($animation) {
+    animation: $animation;
 }
 
 .block2 {
     background-color: var(--color-background-block2);
-    @include block2Animation(0.5s);
+    @include block2Animation(3s ease-out 0.5s);
 }
 
 @keyframes block2 {
