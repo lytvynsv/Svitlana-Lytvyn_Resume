@@ -1,0 +1,247 @@
+@import './my-theme.scss';
+@import './main-theme.scss';
+
+/*variables*/
+:root{
+    /*font*/
+    --font-family-base: 'Montserrat', sans-serif;
+
+    /*colors*/
+    --color-background-main: #1E1E1E;
+    --color-background-block1: #86A3B4;
+    --color-background-block2: #ffff;
+    --color-hireme: #c6e2f3;
+}
+
+body {
+    background: var(--color-main);
+    font-family: var(--font-family-base);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+}
+
+@media screen and (max-width: 550px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+$block1Animation: 3s ease-out;
+$block2Animation: 3s ease-out 0.5s;
+
+@mixin blockAnimation ($animation) {
+    animation: $animation;
+}
+
+.block1 {
+    border-right: var(--border-block1) solid var(--color-main);
+    background-color: var(--color-background-block1);
+    box-shadow: inset 0px 0px 8px 0.1px #484848;
+    @include blockAnimation(3s ease-out);
+}
+
+@keyframes block1 {
+    from {
+        transform: translateY(100%);
+        opacity: 0%;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+}
+
+.pad4block1 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.hireme {
+    color: var(--color-hireme);
+    font-style: normal;
+    font-size: 20px;
+}
+
+.name {
+    font-style: normal;
+    width: 120px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--color-background-block2);
+    margin-bottom: -30px;
+}
+
+.surname {
+    font-style: normal;
+    width: 260px;
+    height: 50px;
+    font-weight: 600px;
+    font-size: 40px;
+    color: var(--color-links);
+}
+
+.image img {
+    margin-top: 50px;
+    transition: 2s;
+    position: relative;
+    z-index: 2;
+
+    &:hover {
+        transform: scale(1.5);
+        box-shadow: 2px 0px 5px rgb(51, 51, 51);
+    }
+}
+
+.text {
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 35px;
+    line-height: 60px;
+    color: var(--color-text1);
+    margin-top: 5px;
+}
+
+.border1 {
+    border-bottom: 6px solid var(--color-main);
+    width: 290px;
+}
+
+.address_phone_email_linkedin {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 5px;
+    color: var(--color-text1);
+    margin-top: 50px;
+}
+
+.city_number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--color-text1);
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--color-links);
+}
+
+.languages {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: var(--space-text);
+    color: var(--color-main);
+}
+
+.block2 {
+    background-color: var(--color-background-block2);
+    @include blockAnimation(3s ease-out 0.5s);
+}
+
+@keyframes block2 {
+    from {
+          transform: translateY(100%);
+    }
+    
+    to {
+          transform: translateY(0%);
+    }
+}
+
+.pad4block2 {
+    padding-top: 5px;
+    padding-left: 60px;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 80px;
+    color: var(--color-main);
+}
+
+.border2 {
+    border-bottom: 5px solid var(--color-text2);
+    width: 660px;
+}
+
+.summary {
+    font-style: normal;
+    width: 705px;
+    height: 75px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: var(--space-text);
+    margin-bottom: 40px;
+    color: var(--color-text1);
+}
+
+.skillscontainer {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 110px;
+    padding-bottom:  40px;
+}
+
+.skills {
+    font-style: normal;
+    width: 295px;
+    height: 85px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: var(--space-text);
+    color: var(--color-text1);
+}
+
+.we1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: var(--space-text);
+    color: var(--color-text2);
+    line-height: var(--space-text2);
+    opacity: .7; 
+
+    &:hover{
+        opacity: 3;
+        transition-duration: 3s;
+    }
+}
+
+.we2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: var(--space-text);
+    color: var(--color-text2);
+    line-height: var(--space-text2);
+    padding-bottom: 40px;
+    opacity: .7;
+
+    &:hover{
+        opacity: 3;
+        transition-duration: 3s;
+    }
+}
+
+.education {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: var(--space-text);
+    color: var(--color-text1);
+    line-height: var(--space-text2);
+}
