@@ -19,15 +19,15 @@ body {
     }
 }
 
-@mixin block1Animation ($animation) {
-    animation: $animation;
+@mixin block1 ($block1) {
+    animation: 3s ease-out block1;
 }
 
 .block1 {
     border-right: var(--border-block1) solid var(--color-main);
     background-color: var(--color-background-block1);
     box-shadow: inset 0px 0px 8px 0.1px #484848;
-    @include block1Animation(3s ease-out);
+    @include block1($block1);
 }
 
 
@@ -131,13 +131,13 @@ body {
     color: var(--color-main);
 }
 
-@mixin block2Animation ($animation) {
-    animation: $animation;
+@mixin block2 ($block2) {
+    animation: 3s ease-out 0.5 block2;
 }
 
 .block2 {
     background-color: var(--color-background-block2);
-    @include block2Animation(3s ease-out 0.5s);
+    @include block2($block2);
 }
 
 @keyframes block2 {
