@@ -1,6 +1,18 @@
 @import './my-theme.scss';
 @import './main-theme.scss';
 
+/*variables*/
+:root{
+    /*font*/
+    --font-family-base: 'Montserrat', sans-serif;
+
+    /*colors*/
+    --color-background-main: #1E1E1E;
+    --color-background-block1: #86A3B4;
+    --color-background-block2: #ffff;
+    --color-hireme: #c6e2f3;
+}
+
 body {
     background: var(--color-main);
     font-family: var(--font-family-base);
@@ -19,8 +31,11 @@ body {
     }
 }
 
+$block1: 3s ease-out;
+$block2: 3s ease-out .5s;
+
 @mixin block1 ($block1) {
-    animation: 3s ease-out block1;
+    animation: block1 3s ease-out;
 }
 
 .block1 {
@@ -40,6 +55,25 @@ body {
     to {
         transform: translateY(0%);
         opacity: 100%;
+    }
+}
+
+@mixin block2 ($block2) {
+    animation: block2 3s 0.5s ease-out;
+}
+
+.block2 {
+    background-color: var(--color-background-block2);
+    @include block2($block2);
+}
+
+@keyframes block2 {
+    from {
+          transform: translateY(100%);
+    }
+    
+    to {
+          transform: translateY(0%);
     }
 }
 
@@ -132,22 +166,7 @@ body {
 }
 
 @mixin block2 ($block2) {
-    animation: 3s ease-out 0.5 block2;
-}
-
-.block2 {
-    background-color: var(--color-background-block2);
-    @include block2($block2);
-}
-
-@keyframes block2 {
-    from {
-          transform: translateY(100%);
-    }
-    
-    to {
-          transform: translateY(0%);
-    }
+    animation: $block2 3s ease-out 0.5s;
 }
 
 .pad4block2 {

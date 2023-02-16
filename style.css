@@ -33,6 +33,17 @@
   --border-block1: 1px;
 }
 
+/*variables*/
+:root {
+  /*font*/
+  --font-family-base: "Montserrat", sans-serif;
+  /*colors*/
+  --color-background-main: #1E1E1E;
+  --color-background-block1: #86A3B4;
+  --color-background-block2: #ffff;
+  --color-hireme: #c6e2f3;
+}
+
 body {
   background: var(--color-main);
   font-family: var(--font-family-base);
@@ -54,7 +65,7 @@ body {
   border-right: var(--border-block1) solid var(--color-main);
   background-color: var(--color-background-block1);
   box-shadow: inset 0px 0px 8px 0.1px #484848;
-  animation: 3s ease-out;
+  animation: block1 3s ease-out;
 }
 
 @keyframes block1 {
@@ -65,6 +76,19 @@ body {
   to {
     transform: translateY(0%);
     opacity: 100%;
+  }
+}
+.block2 {
+  background-color: var(--color-background-block2);
+  animation: block2 3s 0.5s ease-out;
+}
+
+@keyframes block2 {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
   }
 }
 .pad4block1 {
@@ -154,19 +178,6 @@ body {
   color: var(--color-main);
 }
 
-.block2 {
-  background-color: var(--color-background-block2);
-  animation: 3s ease-out 0.5s;
-}
-
-@keyframes block2 {
-  from {
-    transform: translateY(100%);
-  }
-  to {
-    transform: translateY(0%);
-  }
-}
 .pad4block2 {
   padding-top: 5px;
   padding-left: 60px;
