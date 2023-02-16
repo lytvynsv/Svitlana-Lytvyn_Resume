@@ -3,66 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Offer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" >
 </head>
 
 <body>
-<h1>Hire me</h1>
-
-<h3>Contact information</h3>
-
-<table border="1" cellspacing="0" cellpadding="5px">
-    <thead>
-        <tr>
-            <th><strong>Phone</strong></th>
-            <td>+48547455893</td>
-        </tr>
-    </thead>
-    
-    <body>
-        <tr>
-            <th><strong>Address</Address></strong></th>
-            <td>Somewhere in Poland</td>
-        </tr>
-    </body>
-</table>
-
-<body>
-  
-    <form action="/forms.html" method="get">
-   
-        <fieldset>
-            <legend>Contact form</legend>
-            <label>
-                E-mail:
-                <input
-                type="text"
-                style="width: 264px;"
-                required="1"
-                name="e-mail" />
-            </label>
-
-            <br />
-            <label>Description:</label>
-            <br />
-            <textarea
-              id="hire-comment"
-                name="hire-comment"
-                rows="10"
-                cols="41"
-            ></textarea>
-
-            <br />
-            <label>Work type:</label> 
-            <select name="type">
-                <option value="type_1">One-time project</option>
-                <option value="type_2">Remote work</option>
-                <option value="type_3">Full-time</option>
-            </select>
-            <br />
-            <input type="submit" value="Hire me" />
-            <br />
+<div class="bg-white shadow-md rounded">
+    <h1>Hire me</h1>
+    <h3>Contact information</h3>
+    <table border="1" cellspacing="0" cellpadding="5px">
+        <thead>
+            <tr>
+                <th><strong>Phone</strong></th>
+                <td>+48547455893</td>
+            </tr>
+        </thead>
+                
+        <body>
+            <tr>
+                <th><strong>Address</Address></strong></th>
+                <td>Somewhere in Poland</td>
+            </tr>
+        </body>
+    </table>
             
-        </fieldset>
-    </form>
+    <body>
+        <form action="/forms.html" method="get">
+            <fieldset>
+                <legend>Contact form</legend>
+                <label>
+                    E-mail:
+                    <input
+                    type="text"
+                    style="width: 264px;"
+                    required="1"
+                    name="e-mail" />
+                </label>
+
+                <br />
+
+                <label>Description:</label>
+                    <br />
+                    <textarea
+                        id="hire-comment"
+                            name="hire-comment"
+                            rows="10"
+                            cols="41"
+                    ></textarea>
+            
+                    <br />
+
+                <label>Work type:</label> 
+                    <select name="type">
+                        <option value="type_1">One-time project</option>
+                        <option value="type_2">Remote work</option>
+                        <option value="type_3">Full-time</option>
+                    </select>
+                    <br />
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <input type="submit" value="Hire me" />
+                <br />
+            </fieldset>
+        </form>
+    </body>
+</div>
 </body>
 </html>
+
+
+
