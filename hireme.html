@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Offer</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" >
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="bg-white shadow-md rounded">
     <h1>Hire me</h1>
     <h3>Contact information</h3>
     <table border="1" cellspacing="0" cellpadding="5px">
         <thead>
-            <tr>
+            <tr class="w-1/3 ml-auto bg-gray-100 h-12">
                 <th><strong>Phone</strong></th>
                 <td>+48547455893</td>
             </tr>
         </thead>
                 
         <body>
-            <tr>
+            <tr class="w-1/3 mr-auto bg-gray-200 h-12">
                 <th><strong>Address</Address></strong></th>
                 <td>Somewhere in Poland</td>
             </tr>
@@ -27,12 +27,12 @@
     </table>
             
     <body>
-        <form action="/forms.html" method="get">
+        <form class="w-full max-w-sm" action="/forms.html" method="get">
             <fieldset>
                 <legend>Contact form</legend>
-                <label>
+                <label class="text-gray-500 font-bold" for="e-mail">
                     E-mail:
-                    <input
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" id="inline-full-name" type="text" value="username@gmail.com"
                     type="text"
                     style="width: 264px;"
                     required="1"
@@ -41,9 +41,9 @@
 
                 <br />
 
-                <label>Description:</label>
+                <label class="text-gray-500 font-bold" for="description">Description:</label>
                     <br />
-                    <textarea
+                    <textarea class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Write something..."
                         id="hire-comment"
                             name="hire-comment"
                             rows="10"
@@ -52,25 +52,27 @@
             
                     <br />
 
-                <label>Work type:</label> 
-                    <select name="type">
+                <label class="text-gray-500 font-bold">Work type:</label> 
+                <div class="inline-block relative w-64">
+                    <select class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 block leading-tight focus:outline-none focus:bg-white focus:border-blue-500 appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" name="type">
                         <option value="type_1">One-time project</option>
                         <option value="type_2">Remote work</option>
                         <option value="type_3">Full-time</option>
                     </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                </div>
+
                     <br />
                 <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <input type="checkbox" class="form-check-input shadow bg-blue-500 hover:bg-blue-400" id="exampleCheck1">
+                    <label class="form-check-label text-yellow-600 font-bold" for="exampleCheck1">Check me out</label>
                 </div>
-                <input type="submit" value="Hire me" />
+                <input class="transition duration-500 ease-in-out shadow bg-blue-500 hover:bg-blue-300 transform hover:-translate-y-1 hover:scale-110 ..." type="submit" value="Hire me" />
                 <br />
             </fieldset>
         </form>
     </body>
-</div>
 </body>
 </html>
-
-
-
